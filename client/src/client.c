@@ -54,10 +54,11 @@ int main(void)
 	enviar_mensaje(config_get_string_value(config, "CLAVE"),conexion);
 
 	// Armamos y enviamos el paquete
-	paquete(conexion);
+	//paquete(conexion);
 
 	terminar_programa(conexion, logger, config);
-
+	
+	return 0;
 	/*---------------------------------------------------PARTE 5-------------------------------------------------------------*/
 	// Proximamente
 }
